@@ -1,0 +1,13 @@
+.menu h4 {
+  font-family: "Fibonacci";
+  font-style: italic;
+  font-size: 32px;
+}
+.menu a {
+  font-size: 18px;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
