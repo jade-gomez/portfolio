@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-Regular.woff2') format('woff2'),
+        url('RegestoGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-Black.woff2') format('woff2'),
+        url('RegestoGrotesk-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-UltraBold.woff2') format('woff2'),
+        url('RegestoGrotesk-UltraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-UltraLight.woff2') format('woff2'),
+        url('RegestoGrotesk-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-Bold.woff2') format('woff2'),
+        url('RegestoGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-Light.woff2') format('woff2'),
+        url('RegestoGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Regesto Grotesk';
+    src: url('RegestoGrotesk-Medium.woff2') format('woff2'),
+        url('RegestoGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
