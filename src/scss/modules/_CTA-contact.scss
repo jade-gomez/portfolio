@@ -1,0 +1,16 @@
+.CTA-contact p {
+  color: var(--blue, #0400d3);
+  font-family: "Fibonacci";
+  font-size: 64px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.CTA-contact {
+  justify-content: right;
+  /*align-items: center;*/
+  display: flex;
+  gap: 30px;
+  position: fixed;
+  bottom: 25px;
+  right: 42px;
+}
