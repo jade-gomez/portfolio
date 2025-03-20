@@ -40,6 +40,7 @@ h2 {
   font-size: 40px;
   text-transform: uppercase;
   margin: 60px 0;
+  font-weight: 400;
 }
 h2.right {
   text-align: right;
@@ -49,4 +50,7 @@ h2.white {
 }
 h2.above {
   margin-top: -235%;
+}
+img.title {
+  margin: 0 0 0 -85px;
 }
