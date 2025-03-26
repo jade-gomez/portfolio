@@ -16,19 +16,19 @@ img,
 video {
   display: block;
   max-width: 100%;
-  margin-top: 30px;
+  margin-top: 18px;
 }
 .row + .row {
   margin-top: 16px;
 }
-
+/*
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
-}
+}*/
 h1 {
   font-family: "Fibonacci";
   font-size: 96px;
@@ -39,7 +39,7 @@ h1 {
 h2 {
   font-size: 40px;
   text-transform: uppercase;
-  margin: 60px 0;
+  margin: 36px 0;
   font-weight: 400;
 }
 h2.right {
@@ -52,5 +52,5 @@ h2.above {
   margin-top: -235%;
 }
 img.title {
-  margin: 0 0 0 -85px;
+  margin: 0 0 0 -55%;
 }
