@@ -31,3 +31,19 @@
 .l-img-homepage img {
   height: 100%;
 }
+.l-homepage {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  margin-top: -87px;
+}
+
+.l-homepage-background {
+  padding: 53px 59px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.l-homepage-background.black {
+  background-color: black;
+}

@@ -1,38 +1,33 @@
-<div class="l-backgorund">
-  <div class="l-background-black"></div>
-  <extends src="base.layout.html">
-    <block name="content">
-      <div class="container">
-        <div class="row">
-          <div class="col-6">
-            <div class="l-img-homepage">
-              <img
-                src="img/22-23_PREPA_pp_a_gomez_jade_1_1 copie 2.png"
-                alt=""
-              />
-            </div>
+<extends src="base.layout.html">
+  <block name="content">
+    <div class="l-homepage">
+      <div class="l-homepage-background black">
+        <div class="homepage-img-container">
+          <div class="homepage-title">
+            <h1>Portfolio</h1>
+
+            <h4>Jade Gomez</h4>
           </div>
-          <div class="col-6">
-            <div class="l-img-homepage">
-              <img
-                src="img/22-23_PREPA_gd_ao_Gomez_Jade_1-3 copie 2.png"
-                alt=""
-              />
-            </div>
-          </div>
+          <img
+            class="homepage-img"
+            src="img/22-23_PREPA_pp_a_gomez_jade_1_1 copie 2.png"
+            alt=""
+          />
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <h1>Portfolio</h1>
-        </div>
+      <div class="l-homepage-background white">
+        <img
+          class="homepage-img"
+          src="img/22-23_PREPA_gd_ao_Gomez_Jade_1-3 copie 2.png"
+          alt=""
+        />
       </div>
-      <a href="projets.html"
-        ><div class="CTA-projets">
-          <p>voir plus</p>
-          <img src="img/arrow.svg" alt="flêche" /></div
-      ></a>
-      <a href="homepage.html">go</a>
-    </block>
-  </extends>
-</div>
+      <a href="projets.html">
+        <div class="CTA-projets">
+          <p>VOIR PLUS</p>
+          <img src="img/arrow.svg" alt="flêche" />
+        </div>
+      </a>
+    </div>
+  </block>
+</extends>
