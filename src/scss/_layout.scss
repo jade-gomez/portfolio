@@ -21,3 +21,13 @@
   position: absolute;
   z-index: -1;
 }
+.l-img-homepage {
+  margin-top: -65px;
+  z-index: -1;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+.l-img-homepage img {
+  height: 100%;
+}
