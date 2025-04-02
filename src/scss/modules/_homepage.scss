@@ -2,19 +2,36 @@
   height: 100vh;
   display: flex;
   width: 100%;
+  margin-top: -87px;
 }
 
-.l-homepage-black {
+.l-homepage-background {
+  padding: 53px 59px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.l-homepage-background.black {
   background-color: black;
-  padding: 39px 59px;
-  width: 50%;
 }
 
-.l-homepage-white {
-  padding: 39px 59px;
-  width: 50%;
-}
-.l-homepage img {
+.homepage-img {
   height: 100%;
   margin: 0px;
+}
+.homepage-title {
+  position: absolute;
+  left: 9%;
+  top: 10%;
+  /*display: flex;
+  flex-direction: column;*/
+}
+
+.homepage-title h4 {
+  color: var(--black, #000);
+  font-family: "Regesto Grotesk";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
 }
