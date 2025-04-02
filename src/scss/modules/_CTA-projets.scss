@@ -1,0 +1,17 @@
+.CTA-projets p {
+  color: var(--blue, #0400d3);
+  font-family: "Regesto Grotesk";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.CTA-projets {
+  justify-content: right;
+  /*align-items: center;*/
+  display: flex;
+  gap: 30px;
+  position: fixed;
+  bottom: 25px;
+  right: 42px;
+}
