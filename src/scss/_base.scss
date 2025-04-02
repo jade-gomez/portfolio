@@ -18,17 +18,7 @@ video {
   max-width: 100%;
   margin-top: 18px;
 }
-.row + .row {
-  margin-top: 16px;
-}
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
 h1 {
   font-family: "Fibonacci";
   font-size: 96px;
@@ -57,5 +47,15 @@ img.title {
 p {
   font-size: 22px;
 }
-hr {
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
 }
