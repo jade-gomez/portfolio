@@ -12,6 +12,12 @@
   font-weight: 300;
   display: inline;
 }
-img.contact-mini {
+.contact-mini-img {
   margin-top: 0px;
+}
+.contact-mini-all {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
 }
