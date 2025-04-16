@@ -1,9 +1,10 @@
 .star-menu {
   display: flex;
   gap: 5px;
-  position: relative;
+  position: absolute;
   z-index: 2;
-  right: -30px;
+  top: 16px;
+  left: 59px;
 }
 .star-menu img {
   width: 45px;

@@ -13,6 +13,8 @@
   margin: 0;
   position: absolute;
   z-index: -1;
+  height: 100vh;
+  object-fit: cover;
 }
 .l-background-black {
   background-color: black;
@@ -35,7 +37,6 @@
   height: 100vh;
   display: flex;
   width: 100%;
-  margin-top: -87px;
 }
 
 .l-homepage-background {
