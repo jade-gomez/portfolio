@@ -11,6 +11,7 @@
             </div>
           </div>
         </div>
+        <!---
         <div class="row">
           <div class="col-4 offset-7">
             <form action="/ma-page-de-traitement" method="post">…</form>
@@ -38,7 +39,57 @@
               <img class="contact-mini-img" src="img/insta-logo.svg" />
             </div>
           </div>
-        </div>
+        </div>-->
+        <form action="https://formspree.io/f/xeoaworq" method="post">
+          <div class="row">
+            <div class="col-4 offset-7">
+              <input
+                type="text"
+                name="first"
+                placeholder="First Name"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 offset-7">
+              <input
+                type="text"
+                name="last"
+                placeholder="Last Name"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 offset-7">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Adress"
+                autocomplete="off"
+                required
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 offset-7">
+              <textarea
+                name="message"
+                placeholder="Enter text"
+                autocomplete="off"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4 offset-7">
+              <button type="submit">Envoyer</button>
+            </div>
+          </div>
+        </form>
       </div>
     </block>
   </extends>
