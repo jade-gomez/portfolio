@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "RegestoGrotesk";
+  src: url("/fonts/RegestoGrotesk-Regular.woff2") format("woff2"),
+    url("/fonts/RegestoGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "RegestoGrotesk";
+  src: url("/fonts/RegestoGrotesk-UltraLight.woff2") format("woff2"),
+    url("/fonts/RegestoGrotesk-UltraLight.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Fibonacci";
+  src: url("/fonts/FibonacciDemo-Regular.woff2") format("woff2"),
+    url("/fonts/FibonacciDemo-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Fibonacci";
+  src: url("/fonts/FibonacciItalicDemo-Italic.woff2") format("woff2"),
+    url("/fonts/FibonacciItalicDemo-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+}
