@@ -40,7 +40,7 @@ p {
 /*
 .row + .row {
   margin-top: 16px;
-}*/
+}
 
 .row > .col,
 .row > [class^="col-"] {
@@ -48,4 +48,21 @@ p {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+}*/
+
+input,
+textarea {
+  font-size: 40px;
+  font-weight: 300;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 42px 0 0;
+  font-family: "RegestoGrotesk", sans-serif;
+  color: black;
+  padding-bottom: 42px;
+}
+input,
+textarea:focus-within {
+  border: none;
+  border-bottom: 1px solid black;
 }

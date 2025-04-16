@@ -4,7 +4,7 @@
 }
 
 .contact-menu {
-  margin-bottom: 166;
+  margin-bottom: 66px;
 }
 .contact-mini {
   color: var(--light-grey, #ababab);
@@ -20,4 +20,16 @@
   gap: 10px;
   position: absolute;
   bottom: 20px;
+}
+.contact-button {
+  position: relative;
+  bottom: -30px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  padding: 8px 16px;
+  text-transform: uppercase;
 }
