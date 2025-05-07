@@ -1,6 +1,5 @@
 .CTA-projects p {
   color: var(--blue, #0400d3);
-  font-family: "Regesto Grotesk";
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -18,4 +17,23 @@
 .CTA-projects img {
   width: 39px;
   margin-top: 0;
+}
+.CTA-projects {
+  animation: move 2s ease-in-out infinite;
+}
+@keyframes move {
+  0% {
+    rotate: -6deg;
+    transform: translateX(-5px);
+  }
+
+  50% {
+    rotate: 6deg;
+    transform: translateX(5px);
+  }
+
+  100% {
+    rotate: -6deg;
+    transform: translateX(-5px);
+  }
 }

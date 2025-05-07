@@ -1,5 +1,7 @@
 .video-title-star {
   margin: 39px 0 0 -75%;
+  width: 50%;
+  animation: rotate-star 7s ease-out infinite;
 }
 .video-subtitles {
   margin: 6px 0 18px;
@@ -10,4 +12,16 @@
 }
 .video-title {
   margin-top: 39px;
+}
+
+@keyframes rotate-star {
+  0% {
+    rotate: 0deg;
+  }
+  10% {
+    rotate: 360deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
 }

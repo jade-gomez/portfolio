@@ -23,3 +23,19 @@
 .projects-bellow {
   margin-top: 30px;
 }
+
+img.projects-title {
+  animation: rotate-star 5s ease-in-out infinite;
+}
+
+@keyframes rotate-star {
+  0% {
+    rotate: 0deg;
+  }
+  5% {
+    rotate: 360deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
