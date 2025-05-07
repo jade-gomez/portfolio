@@ -4,24 +4,26 @@
 }
 
 .contact-menu {
-  margin-bottom: 66px;
+  margin-bottom: 40px;
 }
 .contact-mini {
   color: var(--light-grey, #ababab);
   font-size: 14px;
   font-weight: 300;
   display: inline;
+  position: absolute;
+  bottom: 15px;
 }
 .contact-mini-img {
   margin-top: 0px;
+  position: absolute;
+  bottom: 15px;
 }
 .contact-mini-all {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  bottom: 20px;
 }
+/*
 .contact-button {
-  position: relative;
+   position: relative;
   bottom: -30px;
 }
+*/
